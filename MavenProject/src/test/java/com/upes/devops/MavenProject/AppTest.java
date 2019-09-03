@@ -1,4 +1,4 @@
-package com.devops.calculator;
+package com.upes.devops.MavenProject;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
