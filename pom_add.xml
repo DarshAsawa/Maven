@@ -13,13 +13,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
  	<maven.compiler.source>1.8</maven.compiler.source>
- <maven.compiler.target>1.8</maven.compiler.target>
-	<repositories>
+	<maven.compiler.target>1.8</maven.compiler.target>
+	
     <repository>
       <id>maven-group</id>
       <url>http://localhost:8081/repository/maven-public/</url>
     </repository>
-  </repositories>
 	
   </properties>
   <distributionManagement>
