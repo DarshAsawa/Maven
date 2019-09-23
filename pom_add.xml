@@ -14,15 +14,13 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
  	<maven.compiler.source>1.8</maven.compiler.source>
 	<maven.compiler.target>1.8</maven.compiler.target>
-	
-    <repository>
+  </properties>
+  <repository>
       <id>maven-group</id>
       <url>http://localhost:8081/repository/maven-public/</url>
     </repository>
-	
-  </properties>
-  <distributionManagement>
-  
+  <distributionManagement> 
+  <repositories>
   <repository>
   <snapshotRepository>
       <id>nexus-snapshots</id>
@@ -32,6 +30,7 @@
       <id>nexus-releases</id>
       <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
+	</repositories>
   </distributionManagement>
 
   <dependencies>
